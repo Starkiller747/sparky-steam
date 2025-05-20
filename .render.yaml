@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: steam-recommender
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    region: oregon
